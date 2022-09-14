@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 35px;
+}
+
+pre {
+  padding: 20px;
+  background-color: #eee;
+}

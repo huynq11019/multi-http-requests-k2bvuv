@@ -1,0 +1,11 @@
+<h1>{{ title }}</h1>
+<div>
+  <h2>1. Single HTTP request</h2>
+  <pre>{{ singleRequestResult | json }}</pre>
+  <h2>2. Multiple HTTP requests</h2>
+  <pre>{{ multiRequestResult | json }}</pre>
+  <h2>3. Sequential HTTP requests with MergeMap</h2>
+  <pre>{{ mergeMapResult | json }}</pre>
+  <h2>4. Parallel HTTP requests with ForkJoin</h2>
+  <pre>{{ forkJoinResult | json }}</pre>
+</div>
